@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas SYSTEM "Personas.dtd">
+<personas>
+<persona>
+<nombre dni="2323408O"> Luis</nombre>
+<apellidos>Pérez</apellidos>
+</persona>
+<persona>
+<nombre dni="5632478O"> Juan</nombre>
+<apellidos>Olmo</apellidos>
+</persona>
+</personas>

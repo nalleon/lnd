@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "Libreria.dtd">
+<libreria>
+<libro >
+<titulo categoria="Comedia">  Libro nº1 </titulo>
+<autor> Alejandro D.  Expósito</autor>
+<editorial>NORMA </editorial>
+ </libro>
+<libro >
+<titulo  categoria="Thriller Psicológico">  Libro nº2 </titulo>
+<autor> Alejandro J. P. Olmo</autor>
+<editorial>IVREA</editorial>
+ </libro>
+ <libro >
+<titulo categoria="Histórico">  Libro nº3 </titulo>
+<autor> Héctor P. Olmo</autor>
+<editorial>OOTZW</editorial>
+ </libro>
+ <libro >
+<titulo categoria="Acción">  Libro nº4</titulo>
+<autor> Daniela C. Martinez </autor>
+<editorial> PLANETA</editorial>
+ </libro>
+ <libro >
+<titulo categoria="Comedia">  Libro nº5</titulo>
+<autor> Santiago U.  Hernández</autor>
+ <editorial>AZTEN</editorial>
+ </libro>
+  <libro >
+<titulo categoria="Cocina">  Libro nº6</titulo>
+<autor> Yguanira G. Sánchez</autor>
+ <editorial>NORMA</editorial>
+ </libro>
+  <libro >
+<titulo categoria="Novela">  Libro nº7</titulo>
+<autor>Idaira G. Sánchez</autor>
+ <editorial>AZTEN</editorial>
+ </libro>
+  <libro >
+<titulo categoria="Guía de Programación">  Libro nº8 </titulo>
+<autor> Dairon Rodríguez</autor>
+ <editorial>PLANETA</editorial>
+ </libro>
+  <libro >
+<titulo categoria="Guía de programación">  Libro nº9 </titulo>
+<autor> Elisabet Skira M.</autor>
+ <editorial>NORMA</editorial>
+ </libro>
+</libreria>
+

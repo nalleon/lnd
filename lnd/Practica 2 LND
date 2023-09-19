@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "Libreria.dtd">
+<libreria>
+<libro >
+<titulo editorial="NORMA">  Libro nº1 </titulo>
+<autor> Alejandro D.  Expósito</autor>
+ </libro>
+<libro >
+<titulo editorial="IVREA">  Libro nº2 </titulo>
+<autor> Alejandro J. P. Olmo</autor>
+ </libro>
+ <libro >
+<titulo editorial="OOQWA">  Libro nº3 </titulo>
+<autor> Héctor P. Olmo</autor>
+ </libro>
+ <libro >
+<titulo editorial="PLANETA">  Libro nº4</titulo>
+<autor> Daniela C. Martinez </autor>
+ </libro>
+ <libro >
+<titulo editorial="AZTEN">  Libro nº5</titulo>
+<autor> Santiago U.  Hernández</autor>
+ </libro>
+</libreria>
