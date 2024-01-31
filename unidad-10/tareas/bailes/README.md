@@ -102,5 +102,28 @@ where $baile/sala[text()=1 and ../precio/@moneda="euro" and ../number(precio) < 
 return $baile/nombre/text()
 ```
 
-
+### Práctica 13
+- Obtener una base de pagina web con el nombre y el precio de los bailes
+```code
+<html>
+<head><title>Consulta pagina web de bailes de </title></head>
+<body> 
+<table border="2"> 
+  <tr> 
+    <td> Nombre Baile </td>
+    <td> Precio Baile </td>
+  </tr>
+  
+{ for $baile in doc ("bailes.xml") //bailes/baile
+where $baile/number(precio)> 20 
+return 
+  <tr> 
+    <td> {$baile/nombre/text()}</td>
+    <td>{$baile/precio/text()}</td> 
+  </tr>
+}
+</table>
+</body>
+</html>
+```
 </div>
