@@ -28,6 +28,8 @@ Finalmente por parte del E-Learning, apreciamos como este es una app que se cent
 
 Tras estas breves explicaciones de cada termino realizaremos una pequeña clasificación de los programas proporcionados en el enunciado:
 
+<div align="center">
+  
 | Categoría               | Programas                                      |
 |-------------------------|------------------------------------------------|
 | **ERP**                 | OpenBravo, Microsoft Dynamics, OpenERP, SAP     |
@@ -35,4 +37,6 @@ Tras estas breves explicaciones de cada termino realizaremos una pequeña clasif
 | **CMS**                 | Drupal, Joomla, WordPress, OpenCMS             |
 | **E-Learning**          | Moodle                                         |
 | **Otros**               | Dropbox (almacenamiento en la nube), Blogger (CMS) |
+
+</div>
 </div>
