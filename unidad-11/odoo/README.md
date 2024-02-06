@@ -32,6 +32,9 @@ Aunque 2011 fuera un año complicado debida a un incumplimiento del presupuesto 
 
 Tras el exito, en junio del siguiente año (2024), se lanzó al mercado la versión 8 con CMS, comercio electrónico, punto de venta, inteligencia empresarial y más de 3000 módulos extras, con la intención de reflejar la expansión más álla de las funciioones propias de un ERP. Dando lugar así al cambio de nombre a Odoo y a la conversión a una de las opciones líderes en gestión empresarial.
 
+<div align="center">
+<img src="./images/fabien-pinckaers.png" />
+</div>
 
 ## Módulo de operaciones
 
@@ -69,7 +72,8 @@ El módulo de ventas de Odoo es un pilar fundamental de la suite de aplicaciones
 
 ## Módulos de sitios web
 
-El módulo de sitio web en Odoo es una pieza clave dentro de la suite empresarial, diseñada para facilitar la creación y gestión eficiente de sitios web empresariales. Sus componentes esenciales son:
+Por parte de este módulo podemos apreciar como este es esencial para el ambiente empresarial, puesto que permita crear y gestionar los sitios web eficimiento. Las herramientas que se proporcionan a los usuarios van desde funcionalidades para facilitar la creación , personalización y la gestios de estos sitios. A destacar la facilitación del uso del SEO para posicionarse más facilmene en los primeros resultados de busqueda; Otros aspectos destacables son los siguientes:
+
 
 - **Gestión de páginas y contenido:** Permite a los usuarios crear, editar y administrar contenido en sus sitios web.
 
