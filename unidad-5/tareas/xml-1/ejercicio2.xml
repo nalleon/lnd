@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE casas[ 
+ <!ELEMENT casas (casa+)>
+    <!ELEMENT casa (metros, direccion)>
+    <!ELEMENT metros (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT propietarios (#PCDATA)>
+    <!ELEMENT precios ( #PCDATA)>
+    <!ATTLIST casa propietarios CDATA #IMPLIED>
+    <!ATTLIST casa precios CDATA  #IMPLIED>
+]>
+<casas>
+<casa propietarios="Jorge Muñoz">
+<metros> 90m2</metros>
+<direccion> Calle Tenerife nº 8  (38687)</direccion>
+</casa>
+<casa precios="125000$">
+<metros> 95m2</metros>
+<direccion> Calle Lanzarote nº 5  (38687)</direccion>
+</casa>
+</casas>

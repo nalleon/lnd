@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curso[ 
+ <!ELEMENT curso (alumno+,modulo+)>
+ <!ATTLIST curso id_curso CDATA #REQUIRED>
+ <!ATTLIST curso ref_curso CDATA #REQUIRED>
+ <!ATTLIST curso año CDATA #REQUIRED>
+  <!ELEMENT alumno (nombre, apellidos)>
+    <!ATTLIST alumno id_alumno CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT modulo (nombre, profesor+)>
+    <!ELEMENT profesor (nombre, apellidos)>
+    <!ATTLIST profesor id_profesor CDATA #REQUIRED>
+    <!ATTLIST profesor refProfesor CDATA #REQUIRED>
+  
+]>
+<curso id_curso="X021" ref_curso="1ºDAM" año="2023/2024">
+<alumno id_alumno="alu01">
+<nombre> Adolfo </nombre>
+<apellidos>Álvarez Afonso</apellidos>
+</alumno>
+<modulo>
+    <nombre> Lenguaje de Marcas</nombre>
+<profesor id_profesor="prof02" refProfesor="prof02">
+        <nombre> Juan Luís </nombre>
+        <apellidos> de Todos Los Santos Ramón</apellidos>
+</profesor>
+</modulo>
+<modulo>
+    <nombre> Programación</nombre>
+<profesor id_profesor="prof02" refProfesor="prof02">
+        <nombre> Joatham </nombre>
+        <apellidos> Pérez Expósito </apellidos>
+</profesor>
+</modulo>
+<modulo>
+    <nombre> Entornos de desarrollo</nombre>
+<profesor id_profesor="prof02" refProfesor="prof02">
+        <nombre> Joatham </nombre>
+        <apellidos> Pérez Expósito </apellidos>
+</profesor>
+</modulo>
+<modulo>
+    <nombre> Sistemas informáticos </nombre>
+<profesor id_profesor="prof03" refProfesor="prof03">
+        <nombre> Antonio Javier   </nombre>
+        <apellidos> Dorta Lorenzo </apellidos>
+</profesor>
+</modulo>
+<modulo>
+    <nombre> Bases de datos </nombre>
+<profesor id_profesor="prof04" refProfesor="prof04">
+        <nombre> Sara </nombre>
+        <apellidos> Pérez Rodríguez  </apellidos>
+</profesor>
+</modulo>
+<modulo>
+    <nombre> Lengua extranjera (Inglés) </nombre>
+<profesor id_profesor="prof05" refProfesor="prof05">
+        <nombre> María de los Ángeles </nombre>
+        <apellidos> González Pérez  </apellidos>
+</profesor>
+</modulo>
+<modulo>
+    <nombre> Formación y orientación laboral </nombre>
+<profesor id_profesor="prof06" refProfesor="prof06">
+        <nombre> JUAN CARLOS   </nombre>
+        <apellidos> CRUZ DÍAZ </apellidos>
+</profesor>
+</modulo>
+</curso>

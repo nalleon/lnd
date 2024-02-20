@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="clinicaveterinaria">
+        <xs:attribute name="sexo" type="xs:string" use="required"></xs:attribute>
+    <xs:complexType>
+ <xs:sequence>
+    <xs:element ref="Cliente" minOccurs="1" maxOccurs="unbounded"> </xs:element> 
+    </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Cliente">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="apellidos" type="xs:string"/>
+        <xs:element name="animal" type="xs:string"/>
+
+        <xs:element ref="animal" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attribute name="sexo" type="xs:string" use="required"></xs:attribute>
+    <xs:attribute name="vacunado" type="xs:boolean" use="optional"></xs:attribute>
+</xs:complexType>
+    </xs:element>
+    <xs:element name="animal">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="perro" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="reptil" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="gato" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="luz" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    <xs:attribute name="venenosa" type="xs:string"/>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>

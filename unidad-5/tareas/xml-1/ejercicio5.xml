@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE contactos [ 
+ <!ELEMENT contactos (persona+)>
+    <!ELEMENT persona (nombre, apellidos, (hombre | mujer), direcciones)>
+    <!ATTLIST persona fecha_nacimiento CDATA #IMPLIED>  
+    <!ELEMENT fecha_nacimiento ( #PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT hombre (#PCDATA)>
+    <!ELEMENT mujer (#PCDATA)>
+    <!ELEMENT direcciones (calle, poblacion, provincia)>
+    <!ATTLIST direcciones codigo_postal CDATA #IMPLIED>  
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+]>
+<contactos>
+<persona fecha_nacimiento="6 de Junio de 2003.">
+<nombre> Jośe Luis </nombre>
+<apellidos> Hernández</apellidos>
+<hombre>Si</hombre>
+<direcciones codigo_postal="38687"> 
+<calle> Gran Canaria </calle>
+<poblacion>Playa de San Juan</poblacion>
+<provincia>Santa Cruz de Tenerife </provincia>
+</direcciones>
+</persona>
+<persona>
+<nombre> Miguel Ángel</nombre>
+<apellidos> Gutierrez </apellidos>
+<mujer>si</mujer>
+<direcciones> 
+<calle>  Avenida Venezuela </calle>
+<poblacion>Guía de Isora</poblacion>
+<provincia>Santa Cruz de Tenerife </provincia>
+</direcciones>
+</persona>
+</contactos>

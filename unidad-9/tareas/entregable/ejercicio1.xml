@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="/home/dam/Documentos/lnd/xls/ejercicio1.xsl"?>
+<note>
+    	<to>Tove</to>
+	<from>Jani</from>
+	<heading>Reminder</heading>
+	<body>Exams next week!</body>
+</note>

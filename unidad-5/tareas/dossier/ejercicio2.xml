@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria[ 
+ <!ELEMENT libreria (libro+)>
+    <!ELEMENT libro (autor, titulo, editorial)>
+    <!ATTLIST libro categoria CDATA #REQUIRED>
+    <!ELEMENT autor (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+]>
+
+<libreria>
+<libro categoria="Fantasía oscura">
+    <autor>Kentaro Miura</autor>
+    <titulo> Bersertk</titulo> 
+    <editorial> Panini </editorial>
+</libro>
+<libro categoria="Fantasía oscura">
+    <autor>Kentaro Miura</autor>
+    <titulo> JAPAN </titulo> 
+    <editorial> Panini </editorial>
+</libro>
+</libreria>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos grupo="3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam/Documentos/lnd/XSD/alumno.xsd">
+<alumno dni="2324323W">
+<nombre> Juan </nombre>
+<edad> 23</edad>
+<nota eval="1"> 8.5 </nota>
+<nota eval="2"> 3.4 </nota>
+<nota eval="3"> 7.1  </nota>
+<telefono>45678943</telefono>
+<iniciales>JGG</iniciales>
+</alumno>
+<alumno dni="2454354P">
+<nombre> Lion </nombre>
+<edad> 31</edad>
+<nota eval="1"> 8.5 </nota>
+<nota eval="2"> 9.4 </nota>
+<nota eval="3"> 9.1  </nota>
+<telefono>3435345</telefono>
+<telefono>2132434451</telefono>
+<iniciales>LJH</iniciales>
+</alumno>
+</alumnos>

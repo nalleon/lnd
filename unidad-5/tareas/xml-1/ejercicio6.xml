@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE info_entrenamiento[ 
+ <!ELEMENT info_entrenamiento (clientes)>
+ <!ELEMENT clientes (cliente+)>
+  <!ELEMENT cliente (nombre, apellido1, apellido2, id,actividad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido1 (#PCDATA)>
+    <!ELEMENT apellido2 (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT sesiones (#PCDATA)>
+    <!ATTLIST cliente sesiones CDATA #IMPLIED>
+    <!ELEMENT actividad (tipo, duracion, distancia)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+    <!ELEMENT distancia (#PCDATA)>
+    <!ATTLIST actividad tipo ( running | natación | bicicleta) "running">
+    <!ATTLIST actividad duracion ( minutos | segundos | horas ) "minutos">
+    <!ATTLIST actividad distancia ( kilómetros | millas | vueltas ) "kilómetros">
+]>
+
+<info_entrenamiento>
+<clientes>
+<cliente sesiones="7">
+<nombre> Estéfano</nombre>
+<apellido1> Suárez</apellido1>
+<apellido2>Álvarez</apellido2>
+<id> E09237839</id>
+<actividad>
+<tipo> natación</tipo>
+<duracion></duracion>
+<distancia></distancia>
+</actividad>
+</cliente>
+<cliente sesiones="7">
+<nombre> Gabriela</nombre>
+<apellido1> Oberg</apellido1>
+<apellido2>Mejias</apellido2>
+<id> G09537839</id>
+<actividad>
+<tipo> </tipo>
+<duracion> horas </duracion>
+<distancia> millas</distancia>
+</actividad>
+</cliente>
+</clientes>
+</info_entrenamiento>
