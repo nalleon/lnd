@@ -1,8 +1,9 @@
 /*
 Estilos de navegación
 */
+
 nav {
-    background-color: blue;
+    background-color: rgb(63, 63, 231);
     width: 100%;
     margin: 0%;
     padding: 0%;
@@ -13,8 +14,27 @@ nav a {
     text-decoration: none;
     background-color: cornflowerblue;
     display: block;
+    padding: 2px, 10px;
 }
 
 nav ul {
     list-style: none;
+}
+
+nav a:hover{
+    background-color: rgb(0, 0, 32);   
+}
+
+.menu > li {
+    float: left;   
+    width: 25%;
+    text-align: center;
+}
+
+li ul {
+    display: none;
+}
+
+li:hover > ul {
+    display: block;
 }

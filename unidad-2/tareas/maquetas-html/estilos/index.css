@@ -1,0 +1,33 @@
+nav, header, main, aside, footer {
+    border-style: solid; 
+    border-color: rgb(141, 191, 112);
+    width: 40%;  
+    height: 100px;
+
+    float: left;
+}
+
+body{
+    background-color: rgb(80, 28, 28);
+}
+nav{
+    background-color: white;
+}
+header {
+    background-color: cornflowerblue;
+}
+main{
+    background-color: aquamarine;
+}
+
+aside{
+    background-color: orange;
+  
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
