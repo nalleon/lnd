@@ -1,0 +1,32 @@
+.cabecera{
+    color: green;
+    background-color: orange;
+}
+.contenedor{
+    background-color: yellow;
+    border: 6px;
+    border-color: black;
+    border-style: ridge;
+}
+.euroAlineadoDcha{
+    background-color: grey;
+}
+.dolarAlineadoDcha{
+    background-color: rgb(161, 160, 160);
+}
+.libraAlineadoDcha{
+    background-color: rgb(189, 187, 187);
+}
+.yenAlineadoDcha{
+    background-color: rgb(218, 215, 215);
+}
+tr{
+    background-color: cyan;
+}
+tr:nth-child(even){
+    background-color:lightgreen ;
+}
+td{
+    border: 1px black solid;
+
+}
