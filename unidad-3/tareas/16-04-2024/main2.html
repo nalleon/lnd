@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".css">
+    <meta name="author" content="nabil"/>
+    <title> </title>
+</head>
+
+<body>
+    <title> Cajas relativas absolutas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: gray;
+        }
+
+
+        #cabecera {
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 5px solid yellow;
+            background-color: white;
+        }
+
+        h1 {
+            color: white;
+            margin: 0;
+            text-align: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            background-color: green;
+        }
+
+        .caja {
+            width: 20%;
+            height: 100px;
+            background-color: gray;
+            border: 5px solid blue;
+
+            position: relative;
+            display: inline-block;
+            align-items: center;
+
+        }
+
+        .caja h1 {
+            padding-bottom: 0%;
+            padding-top: 0%;
+            margin-top: 10%;
+            margin-bottom: 20%;
+        }
+
+        #cuerpo {
+            position: relative;
+            background-color: pink;
+        }
+
+        #cuerpo .caja:nth-child(6) {
+            position: absolute;
+            top: 20%;
+            left: 25%;
+            opacity: 0.9;
+            background-color: red;
+            border: 5px solid blue;
+
+        }
+
+        #cuerpo .caja:nth-child(8) {
+            position: absolute;
+            top: 20%;
+            left: 75%;
+            opacity: 0.7;
+            background-color: red;
+            border: 5px solid blue;
+
+
+        }
+
+        #pie {
+            clear: both;
+            border: 5px solid green;
+            background-color: white;
+            border-style: dotted;
+        }
+    </style>
+    </head>
+
+    <body>
+        <h1> Prueba de posicionamiento </h1>
+        <div id="cabecera">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div id="cuerpo">
+            <div class="caja ">
+                <h1>Caja 1</h1>
+            </div>
+
+            <div class="caja">
+                <h1>Caja 2</h1>
+            </div>
+
+            <div class="caja">
+                <h1>Caja 3</h1>
+            </div>
+
+            <div class="caja">
+                <h1>Caja 4</h1>
+            </div>
+            <div class="caja">
+                <h1>Caja 5</h1>
+            </div>
+
+            <div class="caja">
+                <h1>Caja 6</h1>
+            </div>
+            <div class="caja">
+                <h1>Caja 7</h1>
+            </div>
+
+            <div class="caja">
+                <h1>Caja 8</h1>
+            </div>
+            <div class="caja">
+                <h1>Caja 9</h1>
+            </div>
+
+            <div class="caja">
+                <h1>Caja 10</h1>
+            </div>
+
+        </div>
+        <div id="pie">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+
+    </body>
+
+</html>
+</body>
+
+</html>
