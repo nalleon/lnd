@@ -1,0 +1,7 @@
+p:nth-of-type(2n) {
+    background: red;
+}
+
+body :nth-child(2n) {
+    border: blue 10px solid;
+}
