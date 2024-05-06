@@ -1,0 +1,32 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400px 200px;
+    background-image:url(https://wallpapercave.com/wp/wp3571388.jpg);
+    background-color: rgb(15, 15, 15);
+    background-position: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header img:hover {
+    transform: scaleX(-1);
+}
+
+header img {
+  float: right;
+  margin-right: 55%;
+}
+
+main h5{
+    border-style:solid; 
+    border-color: rgb(205, 56, 56);
+    height: fit-content;
+    width: fit-content;  
+
+    color: white;
+    text-align: justify;
+    float: right;
+    margin:auto;
+
+}
