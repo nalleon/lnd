@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" author="nabil">
+    <link rel="stylesheet" href=".css">
+    <title>formulario</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: serif;
+            font-weight: bold;
+        }
+
+        .datosPropietario {
+            font-family: serif;
+            font-weight: bold;
+            background-color: rgb(197, 197, 197);
+        }
+
+        .formaAcceso {
+            font-family: serif;
+            font-weight: bold;
+            background-color: rgb(241, 203, 143);
+        }
+      
+        .docs {
+            font-family: serif;
+            font-weight: bold;
+            background-color: rgb(209, 127, 127);
+        }
+
+        div {
+            margin-top: 2%;
+        }
+
+        legend {
+            border: 1px solid black; 
+            padding: 5px; 
+            background-color: white; 
+        }
+
+        button{
+            font-family: serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HOJA DE INSCRIPCION <BR>
+            EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+
+    </header>
+    <main>
+
+        <fieldset class="datosPropietario">
+            <legend>Datos del propietario</legend>
+            <label for="nombre">Nombre:</label> <label for="apellidos">Apellidos:</label> <label for="dni">Dni:</label> <br>
+            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="apellidos" name="nombre" required>
+            <input type="text" id="dni" name="nombre" required><br>
+            <label for="nombre">Localiadad Nacimento:</label>
+            <label for="Provincia">Provincia:</label>
+            <label for="nombre">Fecha Nacimento:</label> <br>
+            <input type="text" id="Localiadad_Nacimento" name="nombre" required>
+            <select name="Provincia" id="Provincia">
+                <option value="" selected>-- Seleccionar --</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Alicante">Alicante</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Barcelona">Barcelona</option>
+            </select> 
+            <input type="date" id="Fecha_Nacimento" name="nombre" required> <br>
+            <label for="nombre">Direccion :</label>  <label for="nombre">Codigo Postal :</label> <br>
+            <input type="text" id="Fecha_Nacimento" name="nombre" required>
+            <input type="text" id="Fecha_Nacimento" name="nombre" required>
+
+
+        </fieldset>
+
+
+        <fieldset class="formaAcceso">
+            <legend>Forma de Acceso</legend>
+            <input type="radio" id="servofrenos" name="" value="servofrenos">
+            <label for="servofrenos">Dicect</label>
+            <ul>
+                <ol>
+                    <input type="radio" id="elevalunas" name="otros_datos[]" value="elevalunas">
+                    <label  for="servofrenos">Bachillerato LOGSE. Modalidad</label> <input type="text" id="Matricula" name="Matricula" required><br>
+                    <input type="radio" id="Remolque" name="otros_datos[]" value="Remolque">
+                    <label for="Remolque">Bachillerato Experimental</label><br>
+                    <input type="radio" id="Remolque" name="otros_datos[]" value="Remolque">
+                    <label for="Remolque">COU. Opción </label><input type="text" id="Matricula" name="Matricula" required><br>
+                    <input type="radio" id="Remolque" name="otros_datos[]" value="Remolque">
+                    <label for="Remolque">FP2</label><br>
+                    <input type="radio" id="Remolque" name="otros_datos[]" value="Remolque">
+                    <label for="Remolque">Otros (especifique) </label><input type="text" id="Matricula" name="Matricula" required><br>
+                </ol>
+            </ul>
+            <input type="radio" id="Remolque" name="otros_datos[]" value="Remolque">
+            <label for="Remolque">Prueba Libre</label>
+        </fieldset>
+
+        <fieldset class="docs">
+            <legend>Documentos Adjuntos</legend>
+
+            <input type="checkbox" id="servofrenos" name="" value="servofrenos" >
+            <label for="servofrenos">Fotocopia Dni</label>
+            <input type="checkbox" id="elevalunas" name="otros_datos[]" value="elevalunas" >
+            <label for="nombre">Certificado:</label>
+            <input type="text" id="marca" name="marca" required><br>
+            <input type="checkbox" id="elevalunas" name="otros_datos[]" value="elevalunas" >
+            <label for="nombre">Otros documentos (especifique):</label>
+            <input type="text" id="Matricula" name="Matricula" required><br>
+        </fieldset>
+        <div>
+            <button>Enviar solicitud</button>
+        </div>
+    </main>
+</body>
+
+</html>

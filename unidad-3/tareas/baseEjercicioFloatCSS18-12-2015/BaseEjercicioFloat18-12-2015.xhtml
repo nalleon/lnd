@@ -5,9 +5,47 @@
 		<meta name="author" content="nabil"/>
 		<title></title>
 		<style type="text/css" >
+		
+			.contenedor{
+				font-family: Verdana;
+				text-align: justify;
+				margin: auto;
+				background-color: orange;
+				width: 550px;
+				border-width: 15px;
+    			border-style: solid ;
+				border-color: gray;
+			}
 
+			p{
+				text-indent: 20px;	
+				margin-left: 5px;
+				margin-right: 10px;
+			}
 
-			/*
+			.letraCapital::first-letter {
+				text-indent: 0px !important;
+				font-family: Times !important;
+				font-size: 500% !important;
+				color: gray !important;
+				border: 2px solid rgb(0, 0, 0) !important;
+				margin-left: 5px;
+				float: left;
+			}
+
+			  .letraCapital:not(:first-letter) {
+				text-indent: 0px !important;
+  			}
+
+			.imagen{
+				margin-top: 10px;
+				margin-left: 10px;
+				height: 85px;
+				width: 80px;
+				float: left;
+			}
+
+	/*
 			contenedor es de 550px, tiene borde gris color de fondo naranja
 			El tipo de letra por defecto es Verdana y si no está disponible, Arial
 			La letra L grande es del tipo Times y tiene color gris
@@ -17,29 +55,6 @@
 			:not()             (selecciona lo que no cumpla con el selector entre paréntesis)
 			
 			*/
-
-			body {
-			font-family:Verdana;	
-
-			align-items: center;
-        	}
-
-			div {
-				width: 550px;
-				background-color: orange;
-				border-style:solid;
-           		border-color: gray;
-			}
-			
-			#capital{
-				.p:first-letter:{
-  				font-size:200%;
- 				 float:left;
- 				 color:rgb(0, 0, 0);
-				}
-			}
-
-			
 		</style>
 	</head>
 	<body>

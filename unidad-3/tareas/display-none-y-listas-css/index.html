@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="nabil" />
+    <title></title>
+    <style type="text/css">
+        /* cada elemento li tiene un borde de 1px
+            Para radio personalizado de cada elemento se dispone de: border-top-left-radius, border-bottom-left-radius etc;
+            El ancho es de 500px
+            Los colores de fondo son:
+            el que le pase por encima el ratón: #39DE77
+            square: #C6BD2D, lower-roman: #677EC1, decimal-leading-zero: #5B886B
+            lower-roman tiene modificado el margen izquierdo y con opacidad del 80%
+            decimal-leading-zero tiene modificado el padding izquierdo
+            */
+
+
+        ul {
+            list-style-type:none;
+        }
+
+        ul ul, ol ol {           
+            display: none;
+        }
+
+        ul li {
+            border: 1px solid; 
+            color: black;
+            width: 500px;
+            margin: auto;
+        }
+
+        ul li:hover {
+            background-color: #39DE77;
+        }
+
+        li:hover > ul, li:hover > ol {
+            display: block;
+        }
+
+
+        .square {
+            list-style-type: square;
+            background-color: #C6BD2D;
+            
+        }
+
+        .lower-roman {
+            list-style-type: lower-roman;
+            background-color: #677EC1;
+            opacity: 0.8;
+        }
+
+        .lower-roman.li{
+            margin-left: 20px;
+        }
+
+        .decimal-leading-zero {
+            list-style-type: decimal-leading-zero;
+            background-color: #5B886B;
+            padding-left: 0px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <ul class="none">
+        <li>Estilo de lista actual: none</li>
+        <li>Estilo ul square
+            <ul class="square">
+                <li>Estilo de lista actual: square</li>
+                <li>Elemento</li>
+                <li>Elemento</li>
+            </ul>
+        </li>
+        <li>Estilo ol lower-roman
+            <ol class="lower-roman">
+                <li>Estilo de lista actual: lower-roman</li>
+                <li>Elemento</li>
+                <li>Elemento</li>
+            </ol>
+        </li>
+        <li>Estilo ol decimal-leading-zero
+            <ol class="decimal-leading-zero">
+                <li>Estilo de lista actual: decimal-leading-zero</li>
+                <li>Elemento</li>
+                <li>Elemento</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+
+</html>

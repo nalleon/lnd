@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" author="nabil">
+    <title>Ejercicio Z Index</title>
+    <style type="text/css">
+
+    .contenedor {
+    width: 600px;
+    height: 700px;
+    background: gray;
+    position: relative; 
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: #494848;
+
+}
+
+.caja {
+     width: 200px;
+    opacity: 0.6;   
+     height: 300px;
+    position: absolute;
+    border-width: 10px;
+    shape-outside: ellipse(50% 50%);
+      clip-path: ellipse(50% 50%);
+    
+}
+
+.caja:hover {
+    opacity: 0.93;
+}
+
+.caja:nth-child(1) {
+    background-color: rgb(209, 173, 101);
+     top: 50px;
+    left: 60px;
+
+}
+.caja:nth-child(2) {
+    background-color: rgb(161, 78, 78);
+     top: 100px;
+    left: 130px;
+}
+.caja:nth-child(3) {
+    background-color: rgb(98, 149, 98);
+    top: 180px;
+    left: 210px;
+}
+
+.caja:nth-child(4) {
+    background-color: rgb(103, 131, 149);
+    top: 220px;
+    left: 300px; 
+}
+
+h1 {
+    font-family: Georgia, serif, Cambria;
+    font-style: oblique;
+    letter-spacing: -1px; 
+    text-shadow: 2px 2px 5px #494848; 
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 120px;
+    left: 30px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="caja">
+            <h1> _ UNO _ </h1>
+        </div>
+        <div class="caja">
+            <h1> _ DOS _ </h1>
+        </div>
+        <div class="caja">
+            <h1> _ TRES _</h1>
+        </div>
+        <div class="caja">
+            <h1>_CUATRO_</h1>
+        </div>
+    </div>
+</body>
+
+</html>
