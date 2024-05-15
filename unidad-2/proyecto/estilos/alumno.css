@@ -1,6 +1,13 @@
+body{
+    background-color: rgb(15, 15, 15);
+}
+
 h3{
     align-items: center;
-    background-color:  rgb(205, 56, 56);
+    background: #484f3a;
     color: rgb(0, 0, 0);
     text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    text-shadow: 0 0 5px #000000;
 }

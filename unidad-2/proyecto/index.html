@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./estilos/index.css"> </link>
+
 </head>
-<frameset cols="70%,35%">
-    <frameset rows="10%, *">
-        <frame src="./file/other/top.html" name="top" scrolling="no" border="none">
-        <frame src="main.html" name="menu" border="none">
+<frameset class="mainFrame">
+    <frameset class="rowFrame" rows="10%, *, 5%">
+        <frame src="./file/other/top.html" name="top" scrolling="no" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" >
+            <frameset class="colFrame" cols="25%, 75%">
+                 <frame src="./file/other/informacion.html" name="left" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" width="100%" heigth="100%" noresize>   
+                 <frame src="cronology.html" name="contenido" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" width="100%" heigth="100%" noresize>   
+            </frameset>
+    <frame src="./file/other/alumno.html" name="author" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" width="100%" heigth="100%" noresize>
     </frameset>
-    <frame src="cronology.html" name="contenido" border="none">
 </frameset>
 </html>

@@ -10,13 +10,6 @@ body{
 
 }
 
-header img:hover {
-    transform: scaleX(-1);
-}
-
-header img {
-  margin-right: 55%;
-}
 
 
 
