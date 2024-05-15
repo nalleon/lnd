@@ -1,0 +1,83 @@
+span {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5mm;
+    background-color: white;
+ }
+ 
+ 
+ .mgs {
+    position: relative;
+    background-color: grey;
+    display: grid;
+    float: left;
+    margin-right: 10px;
+    opacity: 80%;
+ }
+
+ .mgs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mgs {
+    display: flex;
+    margin-bottom: 10px; 
+}
+
+.mgs img {
+    width: 750px;
+    height: 950px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+ 
+ 
+ .mgs:hover {
+    animation-name: mgs;
+    animation-duration: 1.5s;
+    opacity: 100%;
+ }
+ 
+ 
+ .mgs .mgs-text {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    width: 100%;
+    opacity: 0%;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+ }
+ 
+ 
+ .mgs:hover .mgs-text {
+    animation-name: texto;
+    animation-duration: 1.5s;
+    opacity: 100%;
+ 
+ 
+ }
+
+ 
+ @keyframes mgs {
+    from {
+        opacity: 80%;
+    }
+    to {
+        opacity: 100%;
+    }
+ }
+ 
+ 
+ @keyframes texto {
+    from {
+        opacity: 0%;
+    }   
+    to {
+        opacity: 100%;
+    }
+ }
+ 
