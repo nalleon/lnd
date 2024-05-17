@@ -3,9 +3,6 @@ body {
     background:  rgb(15, 15, 15);
 }
 
-header img:hover {
-    transform: scaleX(-1);
-}
 
 header img {
   margin:auto;
