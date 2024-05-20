@@ -21,7 +21,7 @@ body{
 }
 
 .mgs-container{
-    padding: 10px 50px;
+    padding: 10px 35px;
     position: relative;
     width: 50%;
     animation: movedown 1s linear forwards;

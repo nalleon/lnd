@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index MGS</title>
     <link rel="stylesheet" href="./estilos/index.css"> </link>
 
 </head>
-<frameset class="mainFrame">
-    <frameset class="rowFrame" rows="10%, *, 5%">
-        <frame src="./file/other/top.html" name="top" scrolling="no" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" >
-            <frameset class="colFrame" cols="25%, 75%">
-                 <frame src="cronology.html" name="left" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" width="100%" heigth="100%" noresize>   
-                 <frame src="./file/other/informacion.html" name="contenido" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" width="100%" heigth="100%" noresize>   
-            </frameset>
-    <frame src="./file/other/alumno.html" name="author" frameborder="1" scrolling="no" marginwidth="0" marginheight="0" width="100%" heigth="100%" noresize>
-    </frameset>
-</frameset>
+<body>
+    <div class="rowFrame" >
+        <div class="middle">
+            <div class="left">
+                <iframe src="./file/other/informacion.html" name="left" scrolling="no"></iframe>
+            </div>
+            <div class="center">
+                <iframe src="main.html" name="contenido" scrolling="no"></iframe>
+            </div>
+            <div class="rigth">
+                <iframe src="./file/other/top.html" name="contenido" scrolling="no"></iframe>
+            </div>
+        </div>
+        <div class="bottom">
+            <iframe src="./file/other/alumno.html" name="author" scrolling="no"></iframe>
+        </div>
+    </div>
+</body>
 </html>
