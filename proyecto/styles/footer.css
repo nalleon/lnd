@@ -1,0 +1,29 @@
+.title {
+    display: inline-block;
+}
+
+.text {
+    font-size: 5em;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-family: "Monteserrat", sans-serif;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
