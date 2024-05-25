@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-.card-container{
+.box-container{
     justify-content: center;
     margin: auto;
     display: flex;
@@ -22,18 +22,10 @@ body {
 
 }
 
-.card-container:hover{
+.box-container:hover{
     animation-name: mgs;
     animation-duration: 1.5s;
     opacity: 100%;
-}
-
-.card{
-    width: 355px;
-    background-color:rgb(255, 255, 255);
-    border-radius: 8px;
-    box-shadow: 1px, 2px, 4px rgba(0, 0, 0, 0.2);
-
 }
 
 @keyframes mgs {
@@ -45,40 +37,40 @@ body {
     }
 }
 
-.card img {
+.box{
+    width: 355px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 1px, 2px, 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.box img {
     width: 100%;
     height: auto;
     border-radius: 5px 5px 0 0 ;
 }
 
-.card-content{
+.box-content{
     padding: 16px;
-    animation-name: texto;
     animation-duration: 1.5s;
     opacity: 100%;
 }
 
-@keyframes texto {
-    from {
-        opacity: 0%;
-    }   
-    to {
-        opacity: 100%;
-    }
-}
 
-.card-content h3 {
+
+.box-content h3 {
     font-size: 23px;
     margin-bottom: 8px;
 }
 
-.card-content p {
+.box-content p {
     font-size: 15px;
     color: #666;
     line-height: 1.3;
 }
 
-.card-content .btn {
+.box-content .btn {
     display: inline-block;
     padding: 8px 16px;
     background:#2f363e;;
