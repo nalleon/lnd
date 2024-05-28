@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024-05-13</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    border: 1px solid red;
+    display: table-cell;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+section {
+    border: solid 2px white;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+}
+
+#one, #three {
+    border: solid 1px green;
+    display: table-cell;
+    width: 15%;
+}
+
+#two {
+    border: solid 1px yellow;
+    display: table-cell;
+    width: 70%;
+}
+
+@media screen and (max-width: 600px){
+    #one, #two, #three {
+        border: solid 1px green;
+        display: block;
+        height: 300px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+</style>
+</head>
+<body>
+    <section>
+        <article id="one"></article>
+        <article id="two"></article>
+        <article id="three"></article>
+    </section>
+</body>
+</html>
